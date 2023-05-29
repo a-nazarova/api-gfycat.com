@@ -72,7 +72,7 @@ class TestGetMe:
         assert status_image is False, "У пользователя есть аватар"
 
     def test_no_followers(self):
-        # Тест проверяет, что у пользователя скучный контент: из-за чего нет подписчиков
+        # Тест проверяет, что у пользователя скучный контент, из-за чего нет подписчиков
         response = requests.get(f"{url}/me", headers=headers)
         response = response.json()
         count_followers = response["followers"]
