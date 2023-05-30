@@ -3,13 +3,11 @@
 - GET 
 - PATCH  
 
-
-
 **Используемый стэк:**
-- puthon3
-- requests
-- pytest
-- poetry
+- Python3
+- Requests
+- Pytest
+- Poetry
 
 ## Установка
 - Склонируйте или скачайте проект 
