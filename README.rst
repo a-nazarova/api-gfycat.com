@@ -1,1 +1,0 @@
-https://developers.gfycat.com/api/
