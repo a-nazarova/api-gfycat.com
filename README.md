@@ -1,9 +1,9 @@
 ## Проект
-Рассматриваются примеры api-тестов на два метода:
+Рассматриваются примеры api-тестов на два метода из [API Documentation](https://developers.gfycat.com/api/) **"Gfycat"**:
 - GET 
 - PATCH  
 
-из [API Documentation](https://developers.gfycat.com/api/) **"Gfycat"**
+
 
 **Используемый стэк:**
 - puthon3
