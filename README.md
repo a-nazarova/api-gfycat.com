@@ -22,4 +22,6 @@
 Затем, вставьте "username" и "password" в словарь “credentials” в файле  gfycat_auth.py
 
 ## Запуск тестов
-Для запуска тестов используйте команды pytest к файлу test_api.py, пример для отчета с форматированием -- *pytest  -v --tb=line test_api.py*
+Для запуска тестов используйте команды pytest к файлу test_api.py  
+
+*Пример для отчета с форматированием -- pytest  -v --tb=line test_api.py*
