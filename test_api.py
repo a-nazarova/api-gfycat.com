@@ -1,6 +1,5 @@
 import requests
 import random
-
 from datetime import datetime
 from gfycat_auth import token_gfycat
 
@@ -214,4 +213,3 @@ class TestPatchMe():
         description = response["description"]
         assert status_code == 400, f"Статус код - {status_code}, ожидалось - 400"
         assert description == "MissingParameter", f"Мессадж ошибки - {description} не соответсвует ожидаемому MissingParameter"
-

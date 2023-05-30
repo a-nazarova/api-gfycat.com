@@ -10,8 +10,8 @@ def get_token_gfycat(credentials):
 
 credentials = {
     "grant_type": "password",
-    "password": "Mus64103",
-    "username": "a_nazarova"
+    "password": "password",
+    "username": "username"
 }
 
 token_gfycat = get_token_gfycat(credentials)
