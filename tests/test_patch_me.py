@@ -6,7 +6,7 @@ import constant
 @pytest.mark.regression
 def test_status_code_add_description():
     """Тест проверяет успешный статус код при добавлении описания профиля"""
-    request_body = {
+    request_body: dict = {
         "operations":
             [{
                 "op": "add",
@@ -20,7 +20,7 @@ def test_status_code_add_description():
 @pytest.mark.regression
 def test_status_code_remove_descritpion():
     """Тест проверяет успешный статус код при удалении описания профиля"""
-    request_body = {
+    request_body: dict = {
         "operations":
             [{
                 "op": "remove",
@@ -33,7 +33,7 @@ def test_status_code_remove_descritpion():
 @pytest.mark.regression
 def test_status_code_add_description_no_auth():
     """Тест проверяет успешный статус код при добавлении описания профиля без авторизации"""
-    request_body = {
+    request_body: dict = {
         "operations":
             [{
                 "op": "add",
@@ -47,7 +47,7 @@ def test_status_code_add_description_no_auth():
 @pytest.mark.regression
 def test_status_code_add_website():
     """Тест проверяет успешный статус код при добавлении вебсайта в профиль"""
-    request_body = {
+    request_body: dict = {
         "operations":
             [{
                 "op": "add",
@@ -61,7 +61,7 @@ def test_status_code_add_website():
 @pytest.mark.regression
 def test_status_code_add_invalid_website():
     """Тест проверяет успешный статус код при добавлении описания профиля"""
-    request_body = {
+    request_body: dict = {
         "operations":
             [{
                 "op": "add",
@@ -75,7 +75,7 @@ def test_status_code_add_invalid_website():
 @pytest.mark.regression
 def test_invalid_command():
     """Тест проверяет статус код при передаче несуществующей команды к описанию профиля"""
-    request_body = {
+    request_body: dict = {
         "operations":
             [{
                 "op": "delete",
@@ -88,7 +88,7 @@ def test_invalid_command():
 @pytest.mark.regression
 def test_invalid_path():
     """Тест проверяет статус код при передаче несущетсвующего пути"""
-    request_body = {
+    request_body: dict = {
         "operations":
             [{
                 "op": "remove",
@@ -112,7 +112,7 @@ def test_status_code_empty_body():
 @pytest.mark.regression
 def test_add_empty_name():
     """Тест првоеряет статус код и мессадж при передаче пустого имени"""
-    request_body = {
+    request_body: dict = {
         "operations":
             [{
                 "op": "add",
@@ -130,7 +130,7 @@ def test_add_empty_name():
 @pytest.mark.regression
 def test_body_no_operation():
     """Тест проверяет статус код и мессадж при отсутсвии обзятельного параметра операции"""
-    request_body = {
+    request_body: dict = {
         "operations":
             [{
                 "path": "/profile_url",
